@@ -1,0 +1,173 @@
+/******** GLOBAL STYLES ********/
+body {
+    font-family: 'Monserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-size: 30px;
+    font-weight: uppercase;
+    text-transform: bold;
+    color:black;
+    
+
+}
+
+h1 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 30px;
+
+}
+
+h3 {
+    font-size: 30px;
+
+}
+
+h4 {
+    font-size: 30px;
+
+}
+
+p {
+    line-height:36px;
+
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/******** HEADER STYLES ********/
+header h1 {
+    width: 300px;
+    float: left;
+    margin: 0;
+    padding-top: 36px 36px;
+    padding-left: 0 0;
+}
+
+
+header h1 span {
+    color: #45610E;
+
+
+}
+
+header nav {
+    width: 300px;
+    float: right;
+    padding-left: 0 0;
+    padding-top: 44px 44px;
+}
+
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color:#45610E;
+
+}
+
+/********  MAIN STYLES ********/
+/******** TOP SECTION ********/
+.main-image img {
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    border-color: #77A466;
+}
+
+.main-title h2 {
+    color: #45610E;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/******** BOTTOM SECTION ********/
+.bottom-section .content-wrapper {
+    border-top: 5px solid;
+    border-bottom: 5px solid;
+    color: #EEE;
+}
+
+.section-one,
+.section-two,
+.section-three {
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px;
+    color: black;
+}
+
+
+.section-one {
+    width: 350px;
+    box-sizing: border-box;
+}
+
+.section-two {
+    width: 500px;
+    box-sizing: border-box;
+    border-left: solid;
+    border-right: solid;
+    border-color: #EEE;
+    color: black;
+}
+
+.section-three {
+    width: 350px;
+    box-sizing: border-box;
+
+}
+
+.bottom-section h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.menu-list li {
+    color:#45610E;
+    line-height: 36px;
+}
+
+/******** FOOTER STYLES ********/
+footer {
+    text-align: center;
+    margin-top: 8px;
+}
+
+footer span {
+    font-family: "Galada", cursive;
+    text-transform: lowercase;
+    color:#45610E;
+    font-size: 14px;
+}
